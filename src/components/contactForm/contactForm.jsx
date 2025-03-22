@@ -22,7 +22,7 @@ function ContactForm() {
         e.preventDefault();
     
         try {
-          const response = await axios.post('https://ddr-renovation-server-production.up.railway.app/send-email', formData);
+          const response = await axios.post('https://ddr-renovation-server-production-4fec.up.railway.app/send-email', formData);
           
           // Check if the email was sent successfully
           if (response.status === 200) {
