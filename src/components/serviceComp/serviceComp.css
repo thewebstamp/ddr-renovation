@@ -243,7 +243,7 @@
     }
     
     .s-text p {
-        font-size: 20px;
+        font-size: 20.5px;
         margin: 11px 0 30px;
     }
     .s-text p span {
@@ -253,7 +253,7 @@
     .s-text a {
         padding: 7px 20px;
         border-radius: 10px;
-        font-size: 18.5px;
+        font-size: 20px;
     }
     
     .service-comp .s-base {
@@ -288,7 +288,7 @@
     }
     
     .item-card p {
-        font-size: 15.5px;
+        font-size: 16px;
     }
     
     .items img {
@@ -318,15 +318,15 @@
     }
     
     .s-heading .s-headline {
-        font-size: 10.5px;
+        font-size: 11px;
         letter-spacing: 3px;
     }
     
     .s-heading h2 {
-        font-size: 26.5px;
+        font-size: 27.5px;
     }
     .s-text p span {
-        font-size: 17px;
+        font-size: 17.5px;
     }
     
     .s-text a {
@@ -367,7 +367,7 @@
     
     .item-card h3 {
         margin-bottom: 4px;
-        font-size: 16.5px;
+        font-size: 17px;
     }
     
     .s-base .control {

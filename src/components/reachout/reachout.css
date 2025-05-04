@@ -130,7 +130,7 @@
     }
     
     .r-top p {
-        font-size: 20px;
+        font-size: 20.5px;
         margin: 6px 0 25px;
     }
     .r-top p span {
@@ -141,7 +141,7 @@
         margin: auto;
         padding: 7px 20px;
         border-radius: 10px;
-        font-size: 18.5px;
+        font-size: 20px;
     }
     
     .reachout-comp .r-base {
@@ -161,30 +161,34 @@
 
 @media (max-width: 685px) {
     .reachout-comp {
-        padding: 50px 7vw 100px;
+        padding: 50px 0vw 100px;
         gap: 60px;
+    }
+    
+    .r-top {
+        padding: 0 7vw;
     }
     
     .r-top .r-headline {
         width: 100%;
-        font-size: 10.5px;
+        font-size: 11px;
         letter-spacing: 3px;
     }
     
     .r-top h2 {
         width: 100%;
-        font-size: 26.5px;
+        font-size: 27.5px;
     }
     
     .r-top p {
         margin: 6px 0 25px;
     }
     .r-top p span {
-        font-size: 18.5px;
+        font-size: 19px;
     }
     
     .reachout-comp .r-base {
-        width: min(430px, 100%);
+        width: min(430px, 95%);
     }
     
     .r-base .r-image-design {

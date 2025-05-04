@@ -152,18 +152,18 @@
     }
     
     .cc-item .ic-info p {
-        font-size: 18px;
+        font-size: 18.5px;
         margin: 5px 0 8px;
     }
     
     .cc-item .ic-info a {
-        font-size: 18.5px;
+        font-size: 19px;
         height: fit-content;
     }
     
     .ic-info a .ci-icon {
-        font-size: 11px;
-        padding: 9px;
+        font-size: 13px;
+        padding: 10px;
     }
     
     .cc-base img {
@@ -171,10 +171,10 @@
     }
     
     .cc-socials a .ccs-icon {
-        width: 20px;
-        height: 20px;
-        font-size: 15px;
-        padding: 8px;
+        width: 25px;
+        height: 25px;
+        font-size: 18px;
+        padding: 9px;
     }
 }
 
@@ -184,7 +184,7 @@
     }
     
     .cc-top .cc-headline {
-        font-size: 10px;
+        font-size: 10.5px;
         margin: -20px auto 0;
         width: 100%;
         letter-spacing: 3px;
@@ -192,7 +192,8 @@
     
     .cc-top h2 {
         width: 100%;
-        font-size: 26px;
+        font-size: 27px;
+        color: rgb(224, 224, 224);
     }
     
     .contact-comp .cc-info {

@@ -111,7 +111,7 @@ p.view {
     }
     
     .faquestions .fa-para {
-        font-size: 20px;
+        font-size: 20.5px;
     }
     
     .faquestions .faquestions-wrap {
@@ -130,7 +130,7 @@ p.view {
     }
     
     .question p {
-        font-size: 18.5px;
+        font-size: 19px;
     }
     
     .answer p {
@@ -150,12 +150,12 @@ p.view {
     }
     
     .faquestions .faq-headline {
-        font-size: 10.5px;
+        font-size: 11px;
         letter-spacing: 3px;
     }
     
     .faquestions h2 {
-        font-size: 26.5px;
+        font-size: 27.5px;
     }
     
     .item-wrap .question {
@@ -164,6 +164,6 @@ p.view {
     }
     
     .answer p {
-        font-size: 18px;
+        font-size: 18.5px;
     }
 }

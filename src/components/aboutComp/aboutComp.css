@@ -172,7 +172,7 @@
     }
     
     .about-comp-text p {
-        font-size: 20px;
+        font-size: 20.5px;
     }
     
     .about-comp-text .about-bullet {
@@ -193,18 +193,18 @@
     .about-comp-text a {
         padding: 7px 20px;
         border-radius: 10px;
-        font-size: 18.5px;
+        font-size: 20px;
     }
 }
 
 @media(max-width: 685px) {
     .about-comp {
-        padding: 55px 7vw;
+        padding: 55px 0vw;
         gap: 60px;
     }
     
     .about-comp .about-comp-imgs {
-        width: 100%;
+        width: 92%;
     }
 
     .about-comp-imgs .a-img-1, .about-comp-imgs .a-img-2 {
@@ -212,11 +212,14 @@
     }
 
     .about-comp-imgs .a-height {
-        width: 90%;
+        width: 95%;
     }
     
     .about-comp-imgs .a-img-1 {
-        width: 90%;
+        width: 95%;
+        transform: translateX(0);
+        right: auto;
+        left: 0;
     }
     
     .about-comp-imgs .a-img-2 {
@@ -224,15 +227,19 @@
         width: 47%;
     }
     
+    .about-comp-text {
+        padding: 0 7vw;
+    }
+    
     .about-comp-text .a-headline {
         width: 100%;
-        font-size: 10.5px;
+        font-size: 11px;
         letter-spacing: 3px;
     }
     
     .about-comp-text h2 {
         width: 100%;
-        font-size: 26.5px;
+        font-size: 27.5px;
         margin: 5px 0 13px;
     }
     
@@ -248,6 +255,6 @@
     }
     
     .item span {
-        font-size: 19.5px;
+        font-size: 20px;
     }
 }

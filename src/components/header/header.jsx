@@ -8,6 +8,8 @@ import { useState } from 'react';
 function Header({home, about, service, contact}) {
     const navigate = useNavigate();
     const [menuActive, setMenuActive] = useState(true);
+    const menuNav = document.getElementById("navigation");
+    const menu = document.getElementById("menu");
 
     function menuSlide() {
         const menuNav = document.getElementById("navigation");
@@ -25,6 +27,17 @@ function Header({home, about, service, contact}) {
             menuText.textContent = "Menu";
         }
     };
+
+    document.addEventListener("click", (e) => {
+        const menuText = document.getElementById("menu");
+
+        if (e.target != menuNav && e.target != menu) {
+            menuNav.classList.remove("nav-menu-active");
+            menuText.classList.remove("menu-close");
+            setMenuActive(true);
+            menuText.textContent = "Menu";
+        }
+    });
 
     return (
         <div className="header-comp">

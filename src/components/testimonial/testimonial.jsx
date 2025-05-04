@@ -61,7 +61,7 @@ function Testimonial() {
                                 <div className="small-circle"></div>
                                 <p>{review.review}</p>
                             </div>
-                            <a href='#'>{review.name}</a>
+                            <p className='a'>{review.name}</p>
                             <p className='t-address'>{review.address}</p>
                         </div>
                     ))}

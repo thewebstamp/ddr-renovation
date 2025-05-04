@@ -97,13 +97,13 @@
     height: 7px;
 }
 
-.t-reviews a, .t-reviews .t-address {
+.t-reviews .a, .t-reviews .t-address {
     padding-left: 17%;
     font-family: "Fenix", serif;
     font-size: 17.5px;
     color: var(--background);
 }
-.t-reviews a {
+.t-reviews .a {
     font-weight: 700;
 }
 
@@ -158,10 +158,11 @@
     }
     
     .review p {
-        font-size: 17.5px;
+        font-size: 18px;
+        color: rgb(213, 213, 213);
     }
     
-    .t-reviews a, .t-reviews .t-address {
+    .t-reviews .a, .t-reviews .t-address {
         padding-left: 18%;
         width: fit-content;
         font-size: 16.5px;
@@ -198,13 +199,14 @@
     }
     
     .t-base .t-headline {
-        font-size: 10.5px;
+        font-size: 11px;
         letter-spacing: 3px;
     }
     
     .t-base h2 {
         width: 100%;
-        font-size: 26.5px;
+        font-size: 27.5px;
+        color: rgb(222, 222, 222);
     }
     
     .t-base .testimonial-wrap {
@@ -219,7 +221,7 @@
         padding: 25px 20px 30px;
     }
     .t-reviews .t-address {
-        font-size: 15px;
+        font-size: 15.5px;
     }
     
     .testimonial-comp .base-rev {

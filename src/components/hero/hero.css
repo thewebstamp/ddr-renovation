@@ -180,7 +180,7 @@
 
 @media (max-width: 685px) {
     .hero-container {
-        padding: 90px 7vw 55px;
+        padding: 90px 0vw 55px;
     }
     
     .hero {
@@ -190,21 +190,22 @@
     
     .hero .hero-top {
         gap: 5px;
+        padding: 0 7vw;
     }
     
     .hero-top .small-headline {
-        font-size: 10.5px;
+        font-size: 11px;
         letter-spacing: 3px;
     }
     
     .hero-top h1 {
-        font-size: 27px;
+        font-size: 28px;
     }
     
     .hero-top p {
         width: 100%;
         margin-top: 5px;
-        font-size: 16px;
+        font-size: 16.5px;
         letter-spacing: 0.2px;
     }
     
@@ -216,12 +217,12 @@
     .hero-btn a {
         padding: 11px 20px;
         border-radius: 10px;
-        font-size: 18px;
+        font-size: 18.5px;
         letter-spacing: 0.4px;
     }
     
     .hero .hero-base {
-        width: 95%;
+        width: 93%;
         gap: 10px;
     }
 }

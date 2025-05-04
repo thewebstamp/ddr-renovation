@@ -160,7 +160,7 @@
     }
     
     .text p {
-        font-size: 18px;
+        font-size: 18.5px;
     }
     
     .set-apart-wrap .sa-base {
@@ -180,18 +180,22 @@
 
 @media (max-width: 685px) {
     .set-apart-wrap {
-        padding: 55px 7vw;
+        padding: 55px 0;
         gap: 50px;
     }
     
+    .sa-top {
+        padding: 0 7vw;
+    }
+    
     .sa-top .sa-headline {
-        font-size: 10.5px;
+        font-size: 11px;
         width: 100%;
     }
     
     .sa-top h2 {
         width: 100%;
-        font-size: 26.5px;
+        font-size: 27.5px;
     }
     
     .sa-top .sa-cards {
@@ -201,11 +205,11 @@
     }
     
     .text h3 {
-        font-size: 19px;
+        font-size: 19.5px;
     }
     
     .set-apart-wrap .sa-base {
-        width: 100%;
+        width: 95%;
     }
     
     .sa-base .sa-img-design {

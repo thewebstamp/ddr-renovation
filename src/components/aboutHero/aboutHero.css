@@ -99,32 +99,36 @@
     }
     
     .ah-base p {
-        font-size: 20px;
+        font-size: 20.5px;
     }
 }
 
 @media(max-width: 685px) {
     .about-hero {
-        padding: 120px 7vw 55px;
+        padding: 120px 0vw 55px;
         gap: 45px;
     }
     
     .about-hero .ah-top {
-        width: 100%;
+        width: 95%;
     }
     
     .ah-top img {
         border: 5px solid var(--background);
     }
     
+    .ah-base {
+        padding: 0 7vw;
+    }
+    
     .ah-base .ah-headline {
         width: 100%;
-        font-size: 10.5px;
+        font-size: 11px;
         letter-spacing: 3px;
     }
     
     .ah-base h2 {
-        font-size: 26.5px;
+        font-size: 27.5px;
         width: 100%;
         margin: 5px auto 17px;
     }
